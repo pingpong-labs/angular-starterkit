@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title ng-bind="title">{{ $root.title }}</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div ng-view class="container"></div>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+    <!-- angular -->
+    <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+    <!-- angular route -->
+    <script type="text/javascript" src="vendor/angular-route/angular-route.min.js"></script>
+    <!-- app scripts -->
+    <script type="text/javascript" src="server.js"></script>
+    <!-- app controllers -->
+    <script type="text/javascript" src="app/controllers/HomeController.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- app routes -->
+    <script type="text/javascript" src="app/routes.js"></script>
+  </body>
+</html>	
